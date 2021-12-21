@@ -1,0 +1,27 @@
+var value=math.rendom()<0.9?2:4
+
+score: the number create after your merge become the score
+
+only when the same number can be merge
+
+todo list for this week/project
+1.study different between InnerHTML vs Innertext vs textcontent
+
+
+todo list for tomorrow(12/16)
+[x]1.write "for" loop to create tile in the randon cell(on empty space) after keypress
+[x]  set tile to the proper position
+[x]  create new tile after keypress or New Game
+[x]  and clean class when invoke reset 
+[]  move tile
+[]2.number>=than128 not setting to 45px yet.
+[]3.maybe I should style some css in JS 
+  because there tile have little different I had to style all tiny different in css seen silly 
+[]4.tile can move to the correct cell without merge
+[]5.merge tile
+
+new knowledge: 
+[] a=new Array(4).fill(0)
+[] while (tileContainer[0].firstChild) { 
+        tileContainer[0].removeChild(tileContainer[0].firstChild) ;
+    }
